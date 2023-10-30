@@ -1,1 +1,1 @@
-# OntheBooksUSC
+# OnTheBooksUofSC
