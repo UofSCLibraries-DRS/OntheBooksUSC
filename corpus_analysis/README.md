@@ -44,3 +44,5 @@ The final list of topics, with the 10 most relevant words, is given in `lda_topi
 5. **Word Cloud for Jim Crow Language:** Visualizes the most frequent words associated with Jim Crow language, providing insights into the vocabulary and language patterns related to Jim Crow-era discourse. Saved in `imgs/word_cloud_jc.png`.
 
 6. **Word Clouds for Topics:** Illustrates the most frequent words associated with each topic identified by the LDA model, offering a visual overview of the thematic content and key terms for each topic. Saved in `imgs/word_cloud_topics.png`.
+
+*The commit message is a really short summary of what this folder is about.*
