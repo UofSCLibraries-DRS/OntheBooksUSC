@@ -12,7 +12,7 @@ The corpus consisted of images as jpeg's and tiff's as below:
 </div>
 
 # Metadata generation for the corpus
-After the data is collected, the team created *page-level metadata* for each in an Excel spreadsheet. This metadata stated the: 
+After the data is collected, the team created *page-level metadata* for each volume in an Excel spreadsheet. This metadata stated the: 
 - title of the volume
 - year
 - file type (jpg or tiff)
@@ -21,4 +21,6 @@ After the data is collected, the team created *page-level metadata* for each in 
 - page number (starting from 0)
 - file name (e.g. "image_name.jpg")
 - marginalia position (top, left, or right)
-While reviewing the pages, blank and other unwanted pages were excluded for metadata creation. The 
+
+While reviewing the pages, blank and other unwanted pages were excluded for metadata creation. The sample of metadata file is given below:
+
