@@ -10,5 +10,10 @@ This page holds all major files related to the "On the Books" project at the [Un
 
 More information about these phases can be found in the specific README.md files within those folders.
 
-## Static Views
+#### Team
+Principal Investigator: Kate Boyd, Director of Digital Research Services, University Libraries, University of SOuth Carolina, boydkf@mailbox.sc.edu
+Technical Lead: Vandana Srivastava, PhD Candidate (CS), Artificial Intelligence Institute, University of South Carolina, vandana@sc.edu
+Undergraduate Research Assistants: Nitin Gupta(CS), Hannah Gardner
+
+#### Static Views
 Since Github might not display IPython notebooks nicely, atleast as of writing this README, a better and static view for this repository and its files (especially the IPython ones) can be found on [nbviewer's link](https://nbviewer.org/github/g-nitin/OnTheBooksUofSC/tree/main/) for this repository. Nbviewer does not host notebooks, it only renders notebooks available on other websites.
