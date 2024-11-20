@@ -11,3 +11,14 @@ The corpus consisted of images as jpeg's and tiff's as below:
   <img src="00198.jpg" alt="page2" width="500" height="800">
 </div>
 
+# Metadata generation for the corpus
+After the data is collected, the team created *page-level metadata* for each in an Excel spreadsheet. This metadata stated the: 
+- title of the volume
+- year
+- file type (jpg or tiff)
+- section type (Acts or Joint Resolutions)
+- act (start page) and act (end page) number
+- page number (starting from 0)
+- file name (e.g. "image_name.jpg")
+- marginalia position (top, left, or right)
+While reviewing the pages, blank and other unwanted pages were excluded for metadata creation. The 
