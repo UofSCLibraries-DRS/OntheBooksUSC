@@ -10,6 +10,6 @@ The corpus consisted of images as jpeg's and tiff's as below:
   <img src="00053.jpg" alt="page1"  width="500" height="800">
   <img src="00198.jpg" alt="page2" width="500" height="800">
 </div>
-
-
-<img src="00000033.jpg" alt="page3" style="border: 2px solid black; border-radius: 5px; padding: 5px;">
+div style="border: 3px solid black; display: inline-block; border-radius: 5px; padding: 10px;">
+  <img src="00198.jpg" alt="Image Description" width="300">
+</div>
