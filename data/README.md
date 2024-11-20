@@ -12,4 +12,4 @@ The corpus consisted of images as jpeg's and tiff's as below:
 </div>
 
 
-<img src="image.jpg" alt="00000033.jpg" style="border: 2px solid black; border-radius: 5px; padding: 5px;">
+<img src="00000033.jpg" alt="page3" style="border: 2px solid black; border-radius: 5px; padding: 5px;">
