@@ -12,8 +12,8 @@ More information about these phases can be found in the specific README.md files
 
 #### Team
 - Principal Investigator: Kate Boyd, Director of Digital Research Services, University Libraries, University of South Carolina, boydkf@mailbox.sc.edu
-- Technical team: Vandana Srivastava, Lance Dupre, Nitin Gupta, Hannah Gardner
-- Subject experts: Axton Crolley, Taylor Callahan
+- Technical team: Vandana Srivastava, Lance Dupre, Nitin Gupta, Hannah Gardner, Brianna
+- Legal scholars: Axton Crolley, Taylor Callahan
 
 #### Static Views
 Since Github might not display IPython notebooks nicely, atleast as of writing this README, a better and static view for this repository and its files (especially the IPython ones) can be found on [nbviewer's link](https://nbviewer.org/github/g-nitin/OnTheBooksUofSC/tree/main/) for this repository. Nbviewer does not host notebooks, it only renders notebooks available on other websites.
