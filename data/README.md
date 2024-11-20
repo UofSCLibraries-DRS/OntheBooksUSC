@@ -6,7 +6,7 @@ The South Carolina laws are divided up into *Acts or General laws* and *Joint Re
 
 **The final corpus consisted of SC Acts from 100 volumes starting from 1868 to 1968.**
 The corpus consisted of images as jpeg's and tiff's as below:
-<div style="border: 2px solid black; display: flex; justify-content: space-around;">
+<div style="border: 2px solid black; display: inline-block;">
   <img src="00053.jpg" alt="page1"  width="500" height="800">
   <img src="00198.jpg" alt="page2" width="500" height="800">
 </div>
