@@ -17,10 +17,9 @@ After the data is collected, the team created *page-level metadata* for each vol
 - year
 - file type (jpg or tiff)
 - section type (Acts or Joint Resolutions)
-- act (start page) and act (end page) number
 - page number (starting from 0)
 - file name (e.g. "image_name.jpg")
 - marginalia position (top, left, or right)
 
 While reviewing the pages, blank and other unwanted pages were excluded for metadata creation. The sample of metadata file is given below:
-
+  <img src="00053.jpg" alt="table1">
