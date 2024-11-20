@@ -11,4 +11,4 @@ The corpus consisted of images as jpeg's and tiff's as below:
  ![page1](00053.jpg)
 
 
-<img src="00053.jpg" alt="page1" width="500" height="300">
+<img src="00053.jpg" alt="page1" width="500" height="800">
