@@ -4,8 +4,8 @@
 This page holds all major files related to the "On the Books" project at the [University of South Carolina](https://sc.edu/) as part of their [Digital Research Services](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/index.php). 
 
 This project was carried out in multiple phases as below:
-- [Data collection](data)
-- Marginalia Removal
+# [Data collection](data)
+# [Marginalia Removal](marginalia)
 - Sentence Splitting and Cleaning
 - Classification
 - Corpus Analysis
