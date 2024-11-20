@@ -8,5 +8,6 @@ The South Carolina laws are divided up into *Acts or General laws* and *Joint Re
 
 The corpus consisted of images as jpeg's and tiff's as below:
 
+ ![Tux, the Linux mascot](/assets/images/tux.png)
 
 
