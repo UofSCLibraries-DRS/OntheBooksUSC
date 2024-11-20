@@ -1,4 +1,4 @@
-# Phase 1: Data Collection to create corpus
+# Phase 1: Data Acquisition
 
 The corpus was created from the scanned SC constituition books available on [HathiTrust Digital Library](https://www.hathitrust.org/) and [HeinOnline](https://heinonline.org/HOL/Welcome). Seventy digitized volumes of the Acts and Joint Resolutions of the General Assembly of the State of South Carolina from 1866 – 1958 were downloaded from HathiTrust Digital Library as JPEGs and OCR’ed text. The remaining volumes were purchased as PDFs and OCR’ed text from HeinOnline.  
 
