@@ -1,4 +1,5 @@
 # Marginalia Removal
+*Marginalia* is the text that was written in the borders of the pages to highlight or summarize the paragraph contenct. It was printed in the corpus volumes prior to 1951. The marginalia are not part of the text and needed to be left out of the OCR process, as did paratextual information from page headers and footers. The marginalia determination process involved identifying the coordinates of the main text body for OCR. The marginalia determination process also identified the median page color to allow for the creation of a blank, color-neutral border around the main body text on each page. Tesseract OCR performs best when the text is not too close to the edge of the page.
 
 The `crop_functions_updated.ipynb` and `test_functs.ipynb` files are originally from UNC, however they were limited in that it didn’t crop the entire volume. So, they were modified to read all files, either .tiff or .jpg, from the given directory for one volume. All the files in that volume are read in one go.
 
