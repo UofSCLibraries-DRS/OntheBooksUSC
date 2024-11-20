@@ -7,7 +7,7 @@ This project was carried out in multiple phases as below:
 ### [Data collection](data)
 ### [Marginalia Removal](marginalia)
 ### [Sentence Splitting and Cleaning](sentence_splitting)
-### Classification
+### [Classification](MachineLearning_OTB_USC)
 ### Corpus Analysis
 
 More information about these phases can be found in the specific README.md files within those folders.
