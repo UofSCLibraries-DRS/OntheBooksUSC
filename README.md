@@ -6,7 +6,7 @@ This page holds all major files related to the "On the Books" project at the [Un
 This project was carried out in multiple phases as below:
 ### [Data collection](data)
 ### [Marginalia Removal](marginalia)
-### Sentence Splitting and Cleaning
+### [Sentence Splitting and Cleaning](sentence_splitting)
 ### Classification
 ### Corpus Analysis
 
