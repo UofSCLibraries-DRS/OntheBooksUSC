@@ -22,4 +22,4 @@ After the data is collected, the team created *page-level metadata* for each vol
 - marginalia position (top, left, or right)
 
 While reviewing the pages, blank and other unwanted pages were excluded for metadata creation. The sample of metadata file is given below:
-  <img src="metadata.jpg" alt="table1">
+  <img src="metadata.jpg" alt="table1"  width="400" height="200">
