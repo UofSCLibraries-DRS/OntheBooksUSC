@@ -3,7 +3,7 @@
 - Determine the coordinates of the main text body was identified
 - The marginalia determination process also identified the median page color to allow for the creation of a blank, color-neutral border around the main body text on each page. 
 
-The [crop_functions_updated_.ipynb][ and `test_functs.ipynb` files are originally from UNC, however they were limited in that it didn’t crop the entire volume. So, they were modified to read all files, either .tiff or .jpg, from the given directory for one volume. All the files in that volume are read in one go.
+The [crop_functions_updated_.ipynb][marginalia/crop_functions_updated_.py] and `test_functs.ipynb` files are originally from UNC, however they were limited in that it didn’t crop the entire volume. So, they were modified to read all files, either .tiff or .jpg, from the given directory for one volume. All the files in that volume are read in one go.
 
 Furthermore, the original versions stopped whenever they encountered a file which threw any kind of error that might have stopped the code from running, such as a failure to crop the file. So, the code was also modified to ignore those errors and keep running. The files which throw errors are stored in a separate csv file, called `errors_year.csv` where year is the year from the volume, in the same directory.
 
