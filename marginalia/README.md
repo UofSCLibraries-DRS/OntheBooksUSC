@@ -5,7 +5,7 @@
 - Crop the marginalia using the bounding box coordinates.
 
  Below figures (1 and 2) show the pages with marginalia and bounding box coordinates :
-<div style="border: 2px solid black; display: inline-block; padding-left: 100px">
+<div style="border: 2px solid black; display: inline-block;">
       <img src="img_marginalia.png" alt="page2" width="300" height="450" style="padding-left: 200px;">
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       <img src="clean.png" alt="page1"  width="300" height="450"> <br>
