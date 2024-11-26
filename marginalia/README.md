@@ -2,7 +2,9 @@
 *Marginalia* is the text that was written in the borders of the pages to highlight or summarize the paragraph content. It was printed in the corpus volumes prior to 1934. The marginalia are not part of the *Acts* and not needed for the OCR process, as did paratextual information from page headers and footers. So, the marginalia had to be removed before OCRing the corpus. The marginalia removal process involved three steps:
 - Determine the coordinates of the main text body and save them in a *csv* file.
 - Identify the median page color to allow for the creation of a blank, color-neutral border around the main body text on each page (bounding box).
-- Crop the marginalia using the bounding box coordinates
+- Crop the marginalia using the bounding box coordinates.
+
+  
 
 The volumes from 1934 to 1968 did not have any marginalia. So, we used the [test_functs_SimpleWay_NoMarginalia.ipynb](test_functs_SimpleWay_NoMarginalia.ipynb) to find the bounding box coordinates using brute-force approach. This method worked very well with >90% success rate. For few pages which were not cropped correctly with this approach, the bounding box coordinates were adjusted manually. The same method [test_functs_SimpleWay_With_Marginalia.ipynb](test_functs_SimpleWay_With_Marginalia.ipynb) was used for some other images also which were giving errors for the `crop_functions_updated_.py.`
 
