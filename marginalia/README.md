@@ -29,3 +29,5 @@ The volumes from 1934 to 1968 did not have any marginalia. So, we used the [test
 - The `crop_functions_updated_.ipynb` was modified to handle its exit whenever a file threw any kind of error, such as a failure to crop the file. The files which threw errors were stored in a separate csv file, called `errors_year.csv` where year was the year of the volume. The crop coordinates for other files, which were cropped by the code, were stored in another csv file, `year.csv`.
 - Some pages were not cropped properly but also didn't throw errors. Those pages were not stored in the `errors_year.csv` file, but in the `year.csv` file. The only way to detect them was to manually go through the cell output, which contains a side-by-side view of the original images and their cropped versions, produced by running `test_functs.ipynb` and keeping track of the incorrectly cropped files.
 - User should run `test_functs.ipynb` which called `crop_functions_updated_.py`. However, if the majority of images are not being cropped properly, then it is advised to play with the values of dil_iter, x_buffer, and y_buffer in`crop_functions_updated_.py`.
+
+### OCR the columes
