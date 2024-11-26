@@ -8,8 +8,7 @@
 <div style="border: 2px solid black; display: inline-block;">
   <img src="img_marginalia.png" alt="page2" width="300" height="450">
   <figcaption>Figure 1: Types of marginalia on the page image.</figcaption>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="original.png" alt="page1"  width="300" height="450">
+  <img src="clean.png" alt="page1"  width="300" height="450">
   <figcaption>Figure 2: Determination of bounding box coordinates</figcaption>
 </div>
 
