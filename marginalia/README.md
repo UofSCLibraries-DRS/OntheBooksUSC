@@ -30,5 +30,5 @@ The volumes from 1934 to 1968 did not have any marginalia. So, we used the [test
 - Some pages were not cropped properly but also didn't throw errors. Those pages were not stored in the `errors_year.csv` file, but in the `year.csv` file. The only way to detect them was to manually go through the cell output, which contains a side-by-side view of the original images and their cropped versions, produced by running `test_functs.ipynb` and keeping track of the incorrectly cropped files.
 - User should run `test_functs.ipynb` which called `crop_functions_updated_.py`. However, if the majority of images are not being cropped properly, then it is advised to play with the values of dil_iter, x_buffer, and y_buffer in`crop_functions_updated_.py`.
 
-### OCR the columes
+### OCRing the volumes
 ***Tesseract*** was used to OCR the volumes. The jupyter notebook configurations for OCRing were pulled down from UNC’s On The Books Github page. The required `adjustments.csv`,  `marginalia_metadata.csv`, and `xmljpegmerge.csv` files are created from metadata supplied by the team. In the `ocr_func.py` file psm in the OCRtestImg function was changed to 11 to better accommodate tabular data in the ocr process. Output is downloaded and paired with the corpus files. 
