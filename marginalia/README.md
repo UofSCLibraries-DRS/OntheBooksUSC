@@ -6,9 +6,8 @@
 
   Below figures (1 and 2) show the pages with marginalia and bounding box coordinates :
 <div style="border: 2px solid black; display: inline-block;">
-  <img src="img_marginalia.png" alt="page2" width="300" height="450"><br>
-  <figcaption>Figure 1: Types of marginalia on the page image.</figcaption>
-  <img src="clean.png" alt="page1"  width="300" height="450"><br>
+  <img src="img_marginalia.png" alt="page2" width="300" height="450">
+  <img src="clean.png" alt="page1"  width="300" height="450">
   <figcaption>Figure 2: Determination of bounding box coordinates</figcaption>
 </div>
 
