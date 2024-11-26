@@ -9,7 +9,7 @@
   <img src="img_marginalia.png" alt="page2" width="300" height="450">
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <img src="clean.png" alt="page1"  width="300" height="450"><br>
-  figcaption>Figure 1: Determination of bounding box coordinates</figcaption>
+  <figcaption class="caption">Figure 1: Determination of bounding box coordinates</figcaption>
   <figcaption>Figure 2: Determination of bounding box coordinates</figcaption>
   &nbsp;&nbsp;&nbsp;
   
