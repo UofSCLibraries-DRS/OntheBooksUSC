@@ -6,8 +6,7 @@
 
   The corpus consisted of images as jpeg's and tiff's as below:
 <div style="border: 2px solid black; display: inline-block;">
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="img_marginalia.png" alt="page2" width="300" height="500">&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="img_marginalia.png" alt="page2" width="300" height="500">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <img src="original.png" alt="page1"  width="300" height="500">
 </div>
 
