@@ -5,7 +5,7 @@
 - Crop the marginalia using the bounding box coordinates.
 
   The corpus consisted of images as jpeg's and tiff's as below:
-<div style="border: 2px solid black; display: inline-block;">
+<div style="border: 2px solid black; display: inline-block; padding: 3px">
   <img src="original.png" alt="page1"  width="400" height="600">
   <img src="img_marginalia.png" alt="page2" width="400" height="600">
 </div>
