@@ -1,6 +1,6 @@
 # Phase 2: Marginalia Removal and OCR
 *Marginalia* is the text that was written in the borders of the pages to highlight or summarize the paragraph content. It was printed in the corpus volumes prior to 1934. The marginalia are not part of the *Acts* and not needed for the OCR process, as did paratextual information from page headers and footers. So, the marginalia had to be removed before OCRing the corpus. The marginalia removal process involved three steps:
-- Determine the coordinates of the main text body and save them in a *csv* file.
+- Determine the coordinates of the main text body and save them in a *csv* file.<br>
 - Identify the median page color to allow for the creation of a blank, color-neutral border around the main body text on each page (bounding box).
 - Crop the marginalia using the bounding box coordinates.
 
