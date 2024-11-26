@@ -6,10 +6,10 @@
 
  Below figures (1 and 2) show the pages with marginalia and bounding box coordinates :
 <div style="border: 2px solid black; display: inline-block;">
-      <img src="img_marginalia.png" alt="page2" width="300" height="450", style:"margin-left: 50px;">
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <img src="img_marginalia.png" alt="page2" width="300" height="450">
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       <img src="original.png" alt="page1"  width="300" height="450"> 
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       <img src="clean.png" alt="page1"  width="300" height="450"> <br>
       <sub>Figure 1: Example of marginalia on a page image. </sub> 
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
