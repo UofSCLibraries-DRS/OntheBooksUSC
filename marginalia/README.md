@@ -4,7 +4,11 @@
 - Identify the median page color to allow for the creation of a blank, color-neutral border around the main body text on each page (bounding box).
 - Crop the marginalia using the bounding box coordinates.
 
-  
+  The corpus consisted of images as jpeg's and tiff's as below:
+<div style="border: 2px solid black; display: inline-block;">
+  <img src="00053.jpg" alt="page1"  width="400" height="600">
+  <img src="00198.jpg" alt="page2" width="400" height="600">
+</div>
 
 The volumes from 1934 to 1968 did not have any marginalia. So, we used the [test_functs_SimpleWay_NoMarginalia.ipynb](test_functs_SimpleWay_NoMarginalia.ipynb) to find the bounding box coordinates using brute-force approach. This method worked very well with >90% success rate. For few pages which were not cropped correctly with this approach, the bounding box coordinates were adjusted manually. The same method [test_functs_SimpleWay_With_Marginalia.ipynb](test_functs_SimpleWay_With_Marginalia.ipynb) was used for some other images also which were giving errors for the `crop_functions_updated_.py.`
 
