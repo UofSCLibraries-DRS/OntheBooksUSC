@@ -1,4 +1,4 @@
-# Corpus Analysis
+# Phase 5: Corpus Analysis
 
 The corpus analysis phase explores the underlying characteristics behind laws from South Carolina.
 
