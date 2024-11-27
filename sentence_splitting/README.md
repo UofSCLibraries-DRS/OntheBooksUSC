@@ -4,8 +4,7 @@ Following the OCR process, the `year_Acts.txt` file of each volume was split int
 
 A sample OCRed file for year `1928` is given below (Figure 1):
 <p align="center">
-   <img src="sentence.jpg" alt="1928 OCR" width="600" height="200">
-   
+   <img src="sentence.jpg" alt="1928 OCR" width="600" height="200"><br>
    <sub>Figure 1: Snapshot of OCRed volume of 1928 </sub> 
 </p>
 
@@ -20,6 +19,12 @@ The metadata accompanying each act was:
 8. The act label
 9. The section label
 10. The path to the image
+
+The same above 1928 Acts data is split into sentences and accompanied with other metadata filelds (Figure 2):
+<p align="center">
+   <img src="split_sentence.jpg" alt="1928 sentences" width="600" height="200"><br>
+   <sub>Figure 2: Snapshot of above 1928 text split in sentences and other metadata </sub> 
+</p>
 
 Note
 - Despite the cleaning process, many errors existed in the final csv files, mostly due to the nature of regex matching, OCR, marginalia removals, and image scans.
