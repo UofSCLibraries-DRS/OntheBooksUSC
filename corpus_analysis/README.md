@@ -21,7 +21,7 @@ Some explanation for the interactive visualization:
     
     This link takes you to the _htmlpreview.github.io_ host for the visualization HTML file. About `htmlpreview` (from their [GitHub](https://github.com/htmlpreview/htmlpreview.github.com)): _Many GitHub repositories don't use GitHub Pages to host their HTML files. GitHub & BitBucket HTML Preview allows you to render those files without cloning or downloading whole repositories. It is a client-side solution using a CORS proxy to fetch assets._
 
-The final model was build from `LDA_best_hyperopt.py`, the file that was used to hypertune the parameters for the final LDA model, and read in `LDA.ipynb`, which was used to create the `LDA_vis.html` file.
+The final model was build from [LDA_best_hyperopt.py](LDA_best_hyperopt.py), the file that was used to hypertune the parameters for the final LDA model, and read in [LDA.ipynb](LDA.ipynb), which was used to create the `LDA_vis.html` file.
 
 The final list of topics, with the 10 most relevant words, is given in `lda_topics.txt`.
 
