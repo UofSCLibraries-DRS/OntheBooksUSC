@@ -3,7 +3,8 @@
 Following the OCR process, the `year_Acts.txt` file of each volume was split into its constituent sentences where each sentence represented an act. The splitting was followed by a cleaning process that attempted to clean up errors introduced from the marginalia removal or OCR processes. The split and cleanings used NLTK’s `PunktSentenceTokenizer`, some simple spellchecking, and regular expressions.
 
 A sample OCRed file for year `1928` is given below (Figure 1):
-<img src="sentence.jpg" alt="1928 OCR" width="300" height="450"><br>
+
+<img src="sentence.jpg" alt="1928 OCR" width="450" height="300"><br>
 <sub>Figure 1: Snapshot of OCRed volume of 1928 </sub> 
     
 The metadata accompanying each act was:
