@@ -4,7 +4,7 @@ Following the OCR process, the `year_Acts.txt` file of each volume was split int
 
 A sample OCRed file for year `1928` is given below (Figure 1):
 
-<img src="sentence.jpg" alt="1928 OCR" width="800" height="200"><br>
+<img src="sentence.jpg" alt="1928 OCR" width="600" height="200", align="center"><br>
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <sub>Figure 1: Snapshot of OCRed volume of 1928 </sub> 
     
