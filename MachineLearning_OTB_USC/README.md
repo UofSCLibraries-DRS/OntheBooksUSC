@@ -43,6 +43,8 @@ The labeled data was ready for modeling with three columns, 'year', 'sentence', 
 -  The labeled data was split in the ratio of 80:20, 80% training set and 20% test set. (14331 sentences in training set and 3583 in test set).
 -  Since most laws are not of Jim Crow language, our training set was imbalanced in favor of label 0 (Figure 3). To resolve this issue, we decided to use [SMOTEN](https://imbalanced-learn.org/stable/references/generated/imblearn.over_sampling.SMOTEN.html#imblearn.over_sampling.SMOTEN) oversampling technique to rebalance the training data.
 -  The hyperparameters were tuned using “hyperopt” parameter optimization python module. (used the UNC program and modified it for to our needs). The pipeline to craete and test the model is given in the file [Prediction_XGBoost_SMOTEN_stopwords_100_trials_Mar30.ipynb](Prediction_XGBoost_SMOTEN_stopwords_100_trials_Mar30.ipynb)
+-  The model was created both using 100 and 500 trials. We found that the model performance did not improve significantly by using 500 trial sin place of 100, so we created the final model using 100 trials only. The comparison is given in the file [Model_results_comparison_for_100_500_trials](ModelResults_Feb_Mar2024.docx).
+-  The model performance for 100 trials is given below:
 
 
 
