@@ -36,11 +36,11 @@ To identify and predict the Jim crow sentences was a Machine Learning (ML) – m
 </div> <br>
 
 
-Method: 
+**Creating ML model **
 
 In the classification phase, supervised learning methods were explored (SGD, XGBoost, Naïve Bayes, and histGradient Boosting) and found that XGBoost was giving the best performance to identify Jim Crow laws within the corpus. 
 
-Unlike the outputs of the sentence cleaning phase, the classification models only utilized two types of features to output the Jim Crow target label;  “categorical” features for the year and sentence. 
+The classification models only utilized two types of features to output the Jim Crow target label;  “categorical” features for the _year_ and _sentence_. 
 
 The target was a 3-class output of either a 0, 1, or 2 which represented not Jim Crow, Jim Crow, and maybe Jim Crow respectively. 
 
