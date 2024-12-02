@@ -24,13 +24,10 @@ To identify and predict the Jim crow sentences was a Machine Learning (ML) – m
     - Total **23,479 sentences** in the labeled data (Figure 2); 14913 sentences from North Carolina and 8566 sentences from South Carolina.
 - As a preprocessing step, all the sentences with less than 27 characters were _discarded_ from model creation. (The number 27 is found after multiple attempts were carried out to check that NO sentence with label 1 is discarded).
     - Total **23,041 sentences** remained; Number of sentences that are NOT jim crow("0") = 18,056, Number of jim crow sentences("1") = 4,318, Number of undecided sentences("2") = 667 (Figure 3)
-    - 
 <div style="border: 2px solid black; display: inline-block;">
-      <img src="sent_length.png" alt="" width="300" height="450">
+      <img src="sent_length.png" alt="" width="300" height="300">
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      <img src="original.png" alt="page1"  width="300" height="450"> 
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      <img src="sent_num.png" alt="page1"  width="300" height="450"> <br>
+      <img src="original.png" alt="page1"  width="300" height="300"> 
       <sub>Figure 2: Histogram of the sentence length in the labeled data. </sub> 
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
