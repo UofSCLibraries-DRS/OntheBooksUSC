@@ -22,8 +22,11 @@ To identify and predict the Jim crow sentences was a Machine Learning (ML) – m
 - Added column state = 'South Carolina' in all Civic Center coded files.
 - Replaced the 'year' values in file 1886_87_1031-1034.csv from '1886-87' to 1886 and '1868_146-151_updated.csv' from '1868-69' to 1868.
     - Total **23,479 sentences** in the labeled data (Figure 2); 14913 sentences from North Carolina and 8566 sentences from South Carolina.
-- As a preprocessing step, all the sentences with less than 27 characters were _discarded_ from model creation. (The number 27 is found after multiple attempts were carried out to check that NO sentence with label 1 is discarded).
+- As a preprocessing step, all the sentences with less than 22 characters were _discarded_ from model creation. (The number 22 is found after multiple attempts were carried out to check that NO sentence with label 1 is discarded).
     - Total **23,041 sentences** remained; Number of sentences that are NOT jim crow("0") = 18,056, Number of jim crow sentences("1") = 4,318, Number of undecided sentences("2") = 667 (Figure 3)
+- We removed 5,127 duplicate sentences in the remaining data. We were left with **17,914** sentences; labeled "0" (14,345), labeled "1" (2,908), labeled "2" (661)
+- We removed stopwords from the labeled data and convert all the sentences into lower case.
+  
 <div style="border: 2px solid black; display: inline-block;">
       <img src="sennt_length.png" alt="length" width="400" height="400">     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       <img src="sent_num.png" alt="count"  width="400" height="400"> <br>     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -31,6 +34,7 @@ To identify and predict the Jim crow sentences was a Machine Learning (ML) – m
        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       <sub>Figure 3: Number of sentences with label "0", "1", and "2" </sub> 
 </div>
+
 
 Method: 
 
