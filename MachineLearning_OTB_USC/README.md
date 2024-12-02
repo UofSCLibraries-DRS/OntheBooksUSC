@@ -26,7 +26,7 @@ To identify and predict the Jim crow sentences was a Machine Learning (ML) – m
     - Total **23,041 sentences** remained; Number of sentences that are NOT jim crow("0") = 18,056, Number of jim crow sentences("1") = 4,318, Number of undecided sentences("2") = 667 (Figure 3)
 <div style="border: 2px solid black; display: inline-block;">
       <img src="sennt_length.png" alt="length" width="400" height="400">     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      <img src="sent_num.png" alt="count"  width="400" height="400"> <br>     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <img src="sent_num.png" alt="count"  width="400" height="400"> <br>     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       <sub>Figure 2: Histogram of the sentence length in the labeled data. </sub> 
        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       <sub>Figure 3: Number of sentences with label "0", "1", and "2" </sub> 
