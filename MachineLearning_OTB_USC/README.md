@@ -29,9 +29,8 @@ To identify and predict the Jim crow sentences was a Machine Learning (ML) – m
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       <img src="sent_num.png" alt="count"  width="300" height="300"> 
       <sub>Figure 2: Histogram of the sentence length in the labeled data. </sub> 
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       <sub>Figure 3: Number of sentences with label "0", "1", and "2" </sub> 
- <br><br>
 </div>
 
 Method: 
