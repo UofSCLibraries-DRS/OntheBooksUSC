@@ -21,9 +21,10 @@ To identify and predict the Jim crow sentences was a Machine Learning (ML) – m
 - Renamed the above files to make the naming consistent (- replaced by _, added 'labeled_sentences').
 - Added column state = 'South Carolina' in all Civic Center coded files.
 - Replaced the 'year' values in file 1886_87_1031-1034.csv from '1886-87' to 1886 and '1868_146-151_updated.csv' from '1868-69' to 1868.
-    - Total **23479 sentences** in the labeled data (Figure 2); 14913 sentences from North Carolina and 8566 sentences from South Carolina.
+    - Total **23,479 sentences** in the labeled data (Figure 2); 14913 sentences from North Carolina and 8566 sentences from South Carolina.
 - As a preprocessing step, all the sentences with less than 27 characters were _discarded_ from model creation. (The number 27 is found after multiple attempts were carried out to check that NO sentence with label 1 is discarded).
-    - Total **23041 sentences** remained; Number of sentences that are NOT jim crow ("0") = 18056, Number of jim crow sentences ("1") = 4318, Number of undecided sentences ("2") = 667 (Figure 3)
+    - Total **23,041 sentences** remained; Number of sentences that are NOT jim crow ("0") = 18,056, Number of jim crow sentences ("1") = 4,318,                          
+      Number of undecided sentences ("2") = 667 (Figure 3)
     - 
 
 Method: 
