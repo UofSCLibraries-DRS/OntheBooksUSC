@@ -10,7 +10,10 @@ To identify and predict the Jim crow sentences was a Machine Learning (ML) – m
 - SC Acts split into sentences in a csv file with year, sentence, and labels  (annotated by legal scholars and constituition experts).Law scholars helped assemble labeled data for creating the model.
 - The labeled data for creating a ML model was combined from the following resources: USC Civic Center's research, UNC labeled data, and SC legal experts using Pauli Murray book.
 
-
+<p align="center">
+   <img src="split_sentence.png" alt="labeled_data"><br>
+   <sub>Figure 2: Snapshot of above 1928 text split in sentences and other metadata </sub> 
+</p>
 Method: 
 
 In the classification phase, supervised learning methods were explored (SGD, XGBoost, Naïve Bayes, and histGradient Boosting) and found that XGBoost was giving the best performance to identify Jim Crow laws within the corpus. 
