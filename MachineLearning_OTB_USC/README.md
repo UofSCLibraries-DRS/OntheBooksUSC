@@ -12,7 +12,7 @@ To identify and predict the Jim crow sentences was a Machine Learning (ML) – m
 
 <p align="center">
    <img src="LabeledData.png" alt="labeled_data", height="200"><br>
-   <sub>Figure 2: Snapshot of labeled data for creating machine learning model</sub> 
+   <sub>Figure 1: Snapshot of labeled data for creating machine learning model</sub> 
 </p>
 Method: 
 
