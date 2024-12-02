@@ -20,7 +20,7 @@ To identify and predict the Jim crow sentences was a Machine Learning (ML) – m
 - Added 11 updated files with correct splitting: 1868_24-25_updated, 1868_143-145_updated, 1868_146-151_updated, 1877_571-586_updated.csv, 1884_24-26_updated.csv, 1886-87_1031-1034_updated.csv, 1886-87_1072-1074_updated.csv, 1868_24-25_updated, 1896_63act_updated, 1907_518-522_updated, 1925_324act_updated.
 - Renamed the above files to make the naming consistent (- replaced by _, added 'labeled_sentences').
 - Added column state = 'South Carolina' in all Civic Center coded files.
-- Replaced the 'year' values in file 1886_87_1031-1034.csv from '1886-87' to 1886 and '1868_146-151_updated.csv' from '1868-69' to 1868 
+- Replaced the 'year' values in file 1886_87_1031-1034.csv from '1886-87' to 1886 and '1868_146-151_updated.csv' from '1868-69' to 1868.
 
 Method: 
 
