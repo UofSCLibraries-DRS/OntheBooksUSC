@@ -47,8 +47,8 @@ The labeled data was ready for modeling with three columns, 'year', 'sentence', 
 -  The model performance for 100 trials is given below:
 
 <div style="border: 2px solid black; display: inline-block;">
-      <img src="Cmatrix.png" alt="matrix" height="300">     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      <img src="results.png" alt="results" height="300"> <br>     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <img src="Cmatrix.png" alt="matrix" width = "400" height: "200">     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <img src="results.png" alt="results" style="height: 200px; vertical-align: middle;"> <br>     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       <sub>Figure 2: Confusion matrix for model performance on test data. </sub> 
        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       <sub>Figure 3: Model performance on test data </sub> 
