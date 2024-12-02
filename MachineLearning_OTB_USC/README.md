@@ -46,7 +46,7 @@ The labeled data was ready for modeling with three columns, 'year', 'sentence', 
 -  The model was created both using 100 and 500 trials. We found that the model performance did not improve significantly by using 500 trial sin place of 100, so we created the final model using 100 trials only. The comparison is given in the file [Model_results_comparison_for_100_500_trials](ModelResults_Feb_Mar2024.docx).
 -  The model performance for 100 trials is given below:
 
-<div style="display: flex; align-items: center; justify-content: space-between;">
+<div style="border: 2px solid black; display: inline-block;">
       <img src="Cmatrix.png" alt="matrix" height="300">     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       <img src="results.png" alt="results" height="300"> <br>     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       <sub>Figure 2: Confusion matrix for model performance on test data. </sub> 
