@@ -11,8 +11,8 @@ To identify and predict the Jim crow sentences was a Machine Learning (ML) – m
 - The labeled data for creating a ML model was combined from the following resources: USC Civic Center's research, UNC labeled data, and SC legal experts using Pauli Murray book.
 
 <p align="center">
-   <img src="split_sentence.png" alt="labeled_data"><br>
-   <sub>Figure 2: Snapshot of above 1928 text split in sentences and other metadata </sub> 
+   <img src="LabeledData.png" alt="labeled_data"><br>
+   <sub>Figure 2: Snapshot of labeled data for creating machine learning model</sub> 
 </p>
 Method: 
 
