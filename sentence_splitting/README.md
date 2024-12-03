@@ -29,7 +29,7 @@ The same above 1928 Acts data is split into sentences and accompanied with other
 Note
 - Despite the cleaning process, many errors existed in the final csv files, mostly due to the nature of regex matching, OCR, marginalia removals, and image scans.
 - In addition, some Joint Resolutions were also mixed with Acts in the OCR files. Those sentence were also detected and labeled.
-- As mentioned in [sentence_splitting.ipynb](sentence_splitting.ipynb), that volumes before, and including, 1894 have Act labels in their marginalias. During the marginlia removal process, these Act labels are removed. To assign each sentence an Act label, the code beklow utilizes `regex` patterns finding Act labels in the text. Thus, for volumes with Act labels in their marginalias, *the Act labels are highly inaccurate.*
+- As mentioned in [sentence_splitting.ipynb](sentence_splitting.ipynb), that volumes before, and including, 1894 have Act labels in their marginalias. During the marginlia removal process, these Act labels are removed. To assign each sentence an Act label, the code below utilizes `regex` patterns finding Act labels in the text. Thus, for volumes with Act labels in their marginalias, *the Act labels are highly inaccurate.*
 - `Act` or `Section` labels for other volumes may also be inaccurate due to the nature of errors arising from marginalia removals, OCR, and non-perfect regex matches.
 - At the end, sentences from all volumes were aggregated into a single csv file and a seperate csv file was also generated for each year.
       
