@@ -1,14 +1,14 @@
 # Phase 4: Classification of sentences from Acts
-To identify and predict the Jim crow sentences was a Machine Learning (ML) – multiclass/multilevel classification problem because we had to clasify the data into 3 labels, 0, 1, and 2. 
+To identify and predict Jim Crow language was a Machine Learning (ML) – multiclass/multilevel classification problem because we had to clasify the data into 3 labels, 0, 1, and 2. 
 
-**Objective** To classify the “Jim crow” sentences in the South Carolina Acts as 0, 1, 2 where:
-- "0" implied _not jim crow sentence
+**Objective** To classify the “Jim Crow” sentences in the South Carolina Acts as 0, 1, 2 where:
+- "0" implied _not jim crow sentence_
 - "1" implied _jim crow sentence_
 - "2" implied _undecided_
 
 **Input** 
 - SC Acts split into sentences in a csv file with year, sentence, and labels  (annotated by legal scholars and constituition experts).Law scholars helped assemble labeled data for creating the model. (Figure 1)
-- The labeled data for creating a ML model was combined from the following resources: USC Civic Center's research, UNC labeled data, and SC legal experts using Pauli Murray book.
+- The labeled data for creating a ML model was combined from the following resources: USC Center for Civil Rights, UNC labeled data, SC legal experts, and Pauli Murray's book _States’ Laws on Race and Color, and Appendice_.
 
 <p align="center">
    <img src="LabeledData.png" alt="labeled_data", height="175"><br>
@@ -42,8 +42,8 @@ The labeled data was ready for modeling with three columns, 'year', 'sentence', 
 -  Many supervised learning methods were initially explored (SGD, XGBoost, Naïve Bayes, and histGradient Boosting) and found that XGBoost was giving the best performance to identify Jim Crow laws within the corpus. We decided to continue our analysis with XGBoost.
 -  The labeled data was split in the ratio of 80:20, 80% training set and 20% test set. (14331 sentences in training set and 3583 in test set).
 -  Since most laws are not of Jim Crow language, our training set was imbalanced in favor of label 0 (Figure 3). To resolve this issue, we decided to use [SMOTEN](https://imbalanced-learn.org/stable/references/generated/imblearn.over_sampling.SMOTEN.html#imblearn.over_sampling.SMOTEN) oversampling technique to rebalance the training data.
--  The hyperparameters were tuned using “hyperopt” parameter optimization python module. (used the UNC program and modified it for to our needs). The pipeline to craete and test the model is given in the file [Prediction_XGBoost_SMOTEN_stopwords_100_trials_Mar30.ipynb](Prediction_XGBoost_SMOTEN_stopwords_100_trials_Mar30.ipynb)
--  The model was created both using 100 and 500 trials. We found that the model performance did not improve significantly by using 500 trial sin place of 100, so we created the final model using 100 trials only. The comparison is given in the file [Model_results_comparison_for_100_500_trials](ModelResults_Feb_Mar2024.docx).
+-  The hyperparameters were tuned using “hyperopt” parameter optimization python module. (used the UNC program and modified it for to our needs). The pipeline to create and test the model is given in the file [Prediction_XGBoost_SMOTEN_stopwords_100_trials_Mar30.ipynb](Prediction_XGBoost_SMOTEN_stopwords_100_trials_Mar30.ipynb)
+-  The model was created both using 100 and 500 trials. We found that the model performance did not improve significantly by using 500 trials in place of 100, so we created the final model using 100 trials only. The comparison is given in the file [Model_results_comparison_for_100_500_trials](ModelResults_Feb_Mar2024.docx).
 -  The model performance for 100 trials is given below:
 
 <div style="border: 2px solid black; display: inline-block;">
