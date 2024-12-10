@@ -1,5 +1,5 @@
 # Phase 4: Classification of sentences from Acts
-To identify and predict Jim Crow language was a Machine Learning (ML) – multiclass/multilevel classification problem because we had to clasify the data into 3 labels, 0, 1, and 2. 
+To identify and predict Jim Crow language was a Machine Learning (ML) – multiclass/multilevel classification problem because we had to classify the data into 3 labels, 0, 1, and 2. 
 
 **Objective** To classify the “Jim Crow” sentences in the South Carolina Acts as 0, 1, 2 where:
 - "0" implied _not jim crow sentence_
@@ -38,7 +38,7 @@ To identify and predict Jim Crow language was a Machine Learning (ML) – multic
 
 **Creating ML model**
 
-The labeled data was ready for modeling with three columns, 'year', 'sentence', and 'label'. The classification models only utilized two types of features to output the Jim Crow target label;  “categorical” features for the _year_ and _sentence_. The target was a 3-class output of either a 0, 1, or 2 which represented not Jim Crow, Jim Crow, and maybe Jim Crow respectively. The following steps were performed to craete the ML model:
+The labeled data was ready for modeling with three columns, 'year', 'sentence', and 'label'. The classification models only utilized two types of features to output the Jim Crow target label;  “categorical” features for the _year_ and _sentence_. The target was a 3-class output of either a 0, 1, or 2 which represented not Jim Crow, Jim Crow, and maybe Jim Crow respectively. The following steps were performed to create the ML model:
 -  Many supervised learning methods were initially explored (SGD, XGBoost, Naïve Bayes, and histGradient Boosting) and found that XGBoost was giving the best performance to identify Jim Crow laws within the corpus. We decided to continue our analysis with XGBoost.
 -  The labeled data was split in the ratio of 80:20, 80% training set and 20% test set. (14331 sentences in training set and 3583 in test set).
 -  Since most laws are not of Jim Crow language, our training set was imbalanced in favor of label 0 (Figure 3). To resolve this issue, we decided to use [SMOTEN](https://imbalanced-learn.org/stable/references/generated/imblearn.over_sampling.SMOTEN.html#imblearn.over_sampling.SMOTEN) oversampling technique to rebalance the training data.
